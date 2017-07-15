@@ -1,7 +1,9 @@
 
-div {
-	height: 524.22;
-	width: 824.25;
+.one {
+	min-width: 824.25;
+	min-height: 524.22;
+	width:100%;
+	height:100%;
 	background-image: url(post.jpg);
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -34,3 +36,78 @@ img {
 	width: 200px;
 	height: 125px;
 }
+.ten {
+	min-height: 570;
+	min-width: 824.25;
+	width: 100%;
+	height: 100%;
+	background-image: url(fourth.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.fourth {
+	position: absolute;
+	display: block;
+	top: 30px;
+	right: 15px;
+	width: 200px;
+	height: 125px;
+}
+.eleven {
+	min-height: 570;
+	min-width: 824.25;
+	width: 100%;
+	height: 100%;
+	background-image: url(white.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.chapter11 {
+	position: absolute;
+	top: 17%;
+	left: 50px;
+	font-family: American Typewriter;
+}
+img .baby {
+	position: absolute;
+	display: block;
+	top: 15px;
+	right: 12px;
+	width: 100px;
+	height: 250px;
+}
+div .homepage {
+	min-height:1024;
+	min-width: 1024;
+	width: 100%;
+	height: 100%;
+}
+.homepage12{
+	/* 12: */
+	font-family: Zapfino;
+	font-size: 9px;
+	color: #000000;
+	letter-spacing: -0px;
+	top: 24%;
+	left: 50%;
+	position: absolute;
+}
+.homepage1{
+	font-family: Zapfino;
+	font-size: 9px;
+	color: #000000;
+	letter-spacing: -0px;
+	top: 27%;
+	left: 37%;
+	position: absolute;
+}
+.homepage11{
+	font-family: Zapfino;
+	font-size: 9px;
+	color: #000000;
+	letter-spacing: -0px;
+	top: 27%;
+	left: 61%;
+	position: absolute;
+}
+
