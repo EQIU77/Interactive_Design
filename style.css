@@ -1,0 +1,36 @@
+
+div {
+	height: 524.22;
+	width: 824.25;
+	background-image: url(post.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.left {
+	position: absolute;
+	top: 27%;
+	left: 30px;
+	right: 52%;
+	font-family: Chalkduster;
+}
+.right {
+	position: absolute;
+	top: 27%;
+	left: 52%;
+	right: 30px;
+	font-family: Chalkduster;
+}
+.chapter {
+	position: absolute;
+	top: 12%;
+	left: 50px;
+	font-family: American Typewriter;
+}
+img {
+	position: absolute;
+	display: block;
+	top: 30px;
+	right: 30px;
+	width: 200px;
+	height: 125px;
+}
