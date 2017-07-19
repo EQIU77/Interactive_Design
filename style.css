@@ -1,19 +1,10 @@
 
-.one {
-	min-width: 824.25;
-	min-height: 524.22;
-	width:100%;
-	height:100%;
-	background-image: url(post.jpg);
-	background-repeat: no-repeat;
-	background-size: cover;
-}
 .left {
-	position: absolute;
 	top: 27%;
 	left: 30px;
 	right: 52%;
 	font-family: Chalkduster;
+	position: absolute;
 }
 .right {
 	position: absolute;
@@ -36,32 +27,7 @@ img {
 	width: 200px;
 	height: 125px;
 }
-.ten {
-	min-height: 570;
-	min-width: 824.25;
-	width: 100%;
-	height: 100%;
-	background-image: url(fourth.jpg);
-	background-repeat: no-repeat;
-	background-size: cover;
-}
-.fourth {
-	position: absolute;
-	display: block;
-	top: 30px;
-	right: 15px;
-	width: 200px;
-	height: 125px;
-}
-.eleven {
-	min-height: 570;
-	min-width: 824.25;
-	width: 100%;
-	height: 100%;
-	background-image: url(white.png);
-	background-repeat: no-repeat;
-	background-size: cover;
-}
+
 .chapter11 {
 	position: absolute;
 	top: 17%;
@@ -76,12 +42,13 @@ img .baby {
 	width: 100px;
 	height: 250px;
 }
-div .homepage {
-	max-height: 1024px;
-	max-width: 1024px;
-	width: 100%;
-	height: 100%;
+.homepage{
+	height: 720px;
+	width: 800px;
+	position: relative;
+	margin: auto;
 }
+
 .homepage12{
 	/* 12: */
 	font-family: Zapfino;
@@ -92,7 +59,7 @@ div .homepage {
 	left: 49%;
 	position: absolute;
 }
-.homepage1{
+.homepage1 {
 	font-family: Zapfino;
 	font-size: 9px;
 	color: #000000;
@@ -101,6 +68,7 @@ div .homepage {
 	left: 38%;
 	position: absolute;
 }
+
 .homepage11{
 	font-family: Zapfino;
 	font-size: 9px;
@@ -110,6 +78,8 @@ div .homepage {
 	left: 61%;
 	position: absolute;
 }
+
+
 .homepage2{
 	font-family: Zapfino;
 	font-size: 9px;
@@ -191,23 +161,157 @@ div .homepage {
 	top: 71%;
 	left: 49%;
 }
+
+.four{
+	min-height: 700px;
+	min-width: 1030px;
+	width: 100%;
+	height: 100%;
+	background-image: url(second.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: absolute;
+}
+.yellow{
+	position: absolute;
+	top: 33%;
+	left: 30px;
+	right: 52%;
+	font-family: Chalkduster; 
+	margin: 0 1.5%;
+	width: 480px;
+	/*yellow is the style of texts for chapter 4*/
+}
+
+.yellowright{
+	position: absolute;
+	top: 33%;
+	left: 52%;
+	right: 30px;
+	font-family: Chalkduster;
+	min-width: 480px;
+	margin: 0 1.5%;
+}
+.yellowimg{
+	position: absolute;
+	display: block;
+	top: 70px;
+	right: 50px;
+	width: 200px;
+	height: 125px;
+}
+.ending {
+	position: relative;
+	display: block;
+	bottom: 10%;
+	width: 730px;
+	height: 30px;
+	left: 1%;
+	margin: 0 auto;
+
+}
+.endingword {
+	font-family: Brush Script MT;
+	font-size: 20px;
+	position: relative;
+	bottom: 2%;
+	margin-left: auto;
+	margin-right: auto;
+
+	text-align: center;
+}
+.end {
+	min-height: 570px;
+}
+.eleven {
+	min-height: 570px;
+	max-width: 840px;
+	background-image: url(white.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	margin: auto;
+}
+
+.container11 a span {
+	display: none; position: absolute;
+}
+
+.container11 a:hover span{
+	display: block;	
+	-webkit-transform: rotate(31deg);
+	position: absolute;
+	left: 63%;
+	top: 39%;
+}
+.container1 a span {
+	display: none; position: absolute;
+}
+
+.container1 a:hover span{
+	display: block;	
+	-webkit-transform: rotate(-30deg);
+	position: absolute;
+	left: 47%;
+	top: 33%;
+}
+.hour{
+	position: absolute;
+	display: block;
+	top: 35%;
+	left: 49%;
+	height: 17%;
+	width: 3%;
+	z-index: 2;
+}
 .minute{
 	position: absolute;
 	display: block;
 	top: 30%;
 	left: 49%;
-	width: 16px;
-	height: 110px;
+	width: 3%;
+	height: 21%;
+	z-index: -1;
 }
-.hour{
+.container4 a span {
+	display: none; position: absolute;
+}
+.container4 a:hover span{
+	display: block;	
+	-webkit-transform: rotate(-120deg);
+	position: absolute;
+	left: 35%;
+	top: 53%;
+}
+.blank{
+	min-height: 700px;
+	min-width: 1030px;
+	width: 100%;
+	height: 100%;
+	background-image: url(blank.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: absolute;
+}
+
+.nine {
+	width: 100%;
+	height: 100%;
+	background-image: url(third.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: absolute;
+}
+.fourth {
 	position: absolute;
 	display: block;
-	top: 36%;
-	left: 36%;
-	width: 29%;
-	height: 30%;
+	top: 30px;
+	right: 15px;
+	width: 200px;
+	height: 125px;
 }
+#yi a{
+	color: rgb(250, 250, 250);
 
-
+}
 
 
