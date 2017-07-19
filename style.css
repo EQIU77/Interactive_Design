@@ -262,6 +262,7 @@ img .baby {
 	height: 17%;
 	width: 3%;
 	z-index: 2;
+	opacity: 50%;
 }
 .minute{
 	position: absolute;
@@ -314,4 +315,84 @@ img .baby {
 
 }
 
+.container9 a span {
+	display: none; position: absolute;
+}
+.container9 a:hover span{
+	display: block;	
+	-webkit-transform: rotate(90deg);
+	position: absolute;
+	left: 65%;
+	top: 56%;
+}
+.container10 a span {
+	display: none; position: absolute;
+}
+.container10 a:hover span{
+	display: block;	
+	-webkit-transform: rotate(60deg);
+	position: absolute;
+	left: 66%;
+	top: 47%;
+}
+.container2 a span {
+	display: none; position: absolute;
+}
+.container2 a:hover span{
+	display: block;	
+	-webkit-transform: rotate(-60deg);
+	position: absolute;
+	left: 40.5%;
+	top: 37%;
+}
+.container3 a span {
+	display: none; position: absolute;
+}
+.container3 a:hover span{
+	display: block;	
+	-webkit-transform: rotate(-90deg);
+	position: absolute;
+	left: 36%;
+	top: 44%;
+}
+.container5 a span {
+	display: none; position: absolute;
+}
+.container5 a:hover span{
+	display: block;	
+	-webkit-transform: rotate(-150deg);
+	position: absolute;
+	left: 39%;
+	top: 61%;
+}
+.container6 a span {
+	display: none; position: absolute;
+}
+.container6 a:hover span{
+	display: block;	
+	-webkit-transform: rotate(180deg);
+	position: absolute;
+	left: 45.5%;
+	top: 66%;
+}
+.container7 a span {
+	display: none; position: absolute;
+}
+.container7 a:hover span{
+	display: block;	
+	-webkit-transform: rotate(150deg);
+	position: absolute;
+	left: 53.5%;
+	top: 67%;
+}
+.container8 a span {
+	display: none; position: absolute;
+}
+.container8 a:hover span{
+	display: block;	
+	-webkit-transform: rotate(120deg);
+	position: absolute;
+	left: 60.5%;
+	top: 63%;
+}
 
