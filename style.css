@@ -34,21 +34,13 @@ img {
 	left: 50px;
 	font-family: American Typewriter;
 }
-.baby {
+img .baby {
 	position: absolute;
 	display: block;
 	top: 15px;
-	right: 20px;
-	width: 150px;
-	height: 180px;
-}
-.dance{
-	position: absolute;
-	display: block;
-	top: 15px;
-	right: 30px;
-	width: 180px;
-	height: 180px;
+	right: 12px;
+	width: 100px;
+	height: 250px;
 }
 .homepage{
 	height: 720px;
@@ -204,14 +196,6 @@ img {
 	right: 50px;
 	width: 200px;
 	height: 125px;
-}
-.hospital {
-	position: absolute;
-	display: block;
-	top: 20px;
-	right: 50px;
-	width: 150px;
-	height: 200px;
 }
 .ending {
 	position: relative;
