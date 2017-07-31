@@ -1,0 +1,140 @@
+body {
+  background-color: black;
+}
+
+.frame {
+  width: 1000px;
+  height: 600px;
+  background: #EBC79E;
+  margin: 30px auto;
+  position: relative;
+}
+
+.fruit-1 {
+	width: 100px;
+	height: 160px;
+	background: #99CC32;
+	border-radius: 100px / 50px;
+	-moz-border-radius: 100px / 50px;
+	-webkit-border-radius: 100px / 50px;
+	left: 100px;
+	top: 25px;
+	position: relative;
+}
+#star {
+	width: 0;
+	height: 0;
+	border-left: 50px solid transparent;
+	border-right: 50px solid transparent;
+	border-bottom: 100px solid green;
+	position: relative;
+	left: 100px;
+	bottom: 208px;
+}
+#star:after {
+	width: 0;
+	height: 0;
+	border-left: 50px solid transparent;
+	border-right: 50px solid transparent;
+	border-top: 100px solid green;
+	position: absolute;
+	content: "";
+	top: 30px;
+	left: -50px;
+	z-index: 2;
+
+}
+.fruit-2 {
+	width: 150px;
+	height: 150px;
+	background: #DBDB70;
+	-moz-border-radius: 75px;
+	-webkit-border-radius: 75px;
+	border-radius: 75px;
+	position: relative;
+	left: 200px;
+	bottom: 210px;
+	z-index: 2;
+}
+.book-one {
+	width: 250px;
+	height: 100px;
+	-webkit-transform: skew(20deg);
+	   -moz-transform: skew(20deg);
+	     -o-transform: skew(20deg);
+	background: white;
+	position: relative;
+	left: 500px;
+	top: 380px;
+
+}
+.book-two {
+	width: 250px;
+	height: 100px;
+	-webkit-transform: skew(20deg);
+	   -moz-transform: skew(20deg);
+	     -o-transform: skew(20deg);
+	background: grey;
+	position: relative;
+	left: 500px;
+	top: 265px;
+	z-index: 2;
+}
+.book-three {
+		width: 150px;
+	height: 100px;
+	-webkit-transform: skew(20deg);
+	   -moz-transform: skew(20deg);
+	     -o-transform: skew(20deg);
+	background: #f35353;
+	position: relative;
+	left: 601px;
+	top: 155px;
+	z-index: 2;
+}
+.fruit-3 {
+	display:block;
+   width: 160px;
+   height: 100px;
+   background-color: #DA4171;
+   -webkit-border-radius: 63px 63px 63px 63px / 108px 108px 72px 72px;
+   border-radius:         50%  50%  50%  50%  / 60%   60%   40%  40%;
+   z-index: 3;
+   position: absolute;
+   top: 310px;
+   right: 263px;
+}
+.glass {
+		display:block;
+   width: 80px;
+   height: 120px;
+   background-color: #99C8f9;
+   border-radius:         0%  0%  50%  50%  / 50%   50%   40%  40%;
+   z-index: 1;
+   position: absolute;
+   top: 280px;
+   left: 330px;
+}
+.stem {
+	width:10px;
+	height: 120px;
+	background-color: #99C8f9;
+	position: absolute;
+	 top: 350px;
+   left: 364px;
+}
+.bottom {
+	display:block;
+   width: 50px;
+   height: 20px;
+   background-color: #99C8f9;
+   -webkit-border-radius: 63px 63px 63px 63px / 108px 108px 72px 72px;
+   border-radius:         50%  50%  50%  50%  / 60%   60%   40%  40%;
+   z-index: 1;
+   position: absolute;
+   top: 454px;
+   right: 606px;
+}
+
+
+/* Your CSS goes here */
