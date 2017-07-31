@@ -2,73 +2,18 @@ $(document).ready(function(){
 
    var bodyHeight = $('.column1').height();
    var footerOffsetTop = $('.handsh').offset().top;
-   var topToBottom = bodyHeight -footerOffsetTop;
-    
-  $('.handsh').css({top:'auto',bottom:topToBottom});
-  $(".handsh").delay(0).animate({
-    bottom: '0px',
-    }, 5000);  
+   var topToBottom = bodyHeight - footerOffsetTop;
 
-   var bodyHeight = $('.column1').height();
-   var footerOffsetTop = $('.handsa').offset().top;
-   var topToBottom = bodyHeight -footerOffsetTop;
+   var alphabetLoop = [[".handsh", 0,'0px'],[".handsa", 5000,'18px'], ['.handsn', 10000,'0px'], 
+                        ['.handsd', 0, '-97px'], ['.handss', 0, '39px'], ['.anda', 0, '17px'],
+                        ['.andn', 0, '0px'], ['.andd', 0, '-97px'], ['.feetf', 0, '41px'],
+                        ['.feete1', 0, '-20px'], ['.feete2', 0,'-20px'], ['.feett', 0, '-303px']]
     
-  $('.handsa').css({top:'auto',bottom:topToBottom});
-  $(".handsa").delay(5000).animate({
-    bottom: '18px',
-    }, 5000);  
-
-   var bodyHeight = $('.column1').height();
-   var footerOffsetTop = $('.handsn').offset().top;
-   var topToBottom = bodyHeight -footerOffsetTop;
-    
-  $('.handsn').css({top:'auto',bottom:topToBottom});
-  $(".handsn").delay(10000).animate({
-    bottom: '0px',
-    }, 5000);  
-
-   var bodyHeight = $('.column1').height();
-   var footerOffsetTop = $('.handsd').offset().top;
-   var topToBottom = bodyHeight -footerOffsetTop;
-    
-  $('.handsd').css({top:'auto',bottom:topToBottom});
-  $(".handsd").delay(15000).animate({
-    bottom: '-97px',
-    }, 5000);  
-
-   var bodyHeight = $('.column1').height();
-   var footerOffsetTop = $('.handss').offset().top;
-   var topToBottom = bodyHeight -footerOffsetTop;
-    
-  $('.handss').css({top:'auto',bottom:topToBottom});
-  $(".handss").delay(20000).animate({
-    bottom: '39px',
-    }, 5000); 
-
-   var bodyHeight = $('.column1').height();
-   var footerOffsetTop = $('.anda').offset().top;
-   var topToBottom = bodyHeight -footerOffsetTop;
-    
-  $('.anda').css({top:'auto',bottom:topToBottom});
-  $(".anda").delay(25000).animate({
-    bottom: '17px',
-    }, 5000); 
-
-   var bodyHeight = $('.column1').height();
-   var footerOffsetTop = $('.andn').offset().top;
-   var topToBottom = bodyHeight -footerOffsetTop;
-    
-  $('.andn').css({top:'auto',bottom:topToBottom});
-  $(".andn").delay(30000).animate({
-    bottom: '0px',
-    }, 5000); 
-
-var bodyHeight = $('.column1').height();
-   var footerOffsetTop = $('.andd').offset().top;
-   var topToBottom = bodyHeight -footerOffsetTop;
-    
-  $('.andd').css({top:'auto',bottom:topToBottom});
-  $(".andd").delay(35000).animate({
-    bottom: '-97px',
-    }, 5000); 
+    for(var i = 0; i< alphabetLoop.length; i++) {
+      console.log("loop: " + alphabetLoop[i][0] + " " + alphabetLoop[i][1] + " " + alphabetLoop[i][2]);
+      $(alphabetLoop[i][0]).css({top:'auto',bottom:topToBottom});
+      $(alphabetLoop[i][0]).delay(alphabetLoop[i][1]).animate({
+        bottom: alphabetLoop[i][2],
+      }, 5000);  
+    }
 });
