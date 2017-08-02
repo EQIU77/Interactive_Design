@@ -19,14 +19,7 @@
 	left: 50px;
 	font-family: American Typewriter;
 }
-img {
-	position: absolute;
-	display: block;
-	top: 30px;
-	right: 30px;
-	width: 200px;
-	height: 125px;
-}
+
 
 .chapter11 {
 	position: absolute;
@@ -34,7 +27,7 @@ img {
 	left: 50px;
 	font-family: American Typewriter;
 }
-img .baby {
+.baby {
 	position: absolute;
 	display: block;
 	top: 15px;
@@ -383,4 +376,9 @@ img .baby {
 	left: 60.5%;
 	top: 63%;
 }
-
+.oneam {
+	position: relative;
+	right: 40%;
+	width: 163px;
+	height: 159px;
+}

@@ -18,8 +18,9 @@
 	top: 12%;
 	left: 50px;
 	font-family: American Typewriter;
+	z-index: 2;
 }
-img {
+.image {
 	position: absolute;
 	display: block;
 	top: 30px;
@@ -399,4 +400,20 @@ img {
 	left: 60.5%;
 	top: 63%;
 }
-
+.oneam {
+	position: absolute;
+	left:145px;
+	top: 30px;
+}
+.twoam{
+	position: absolute;
+	left: 145px;
+	top: 30px;
+}
+.back{
+	position: absolute;
+    margin: 0 auto;
+    display: block;
+    top: 1500px;
+    left: 38%;
+}
